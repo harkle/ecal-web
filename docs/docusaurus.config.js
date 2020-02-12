@@ -1,23 +1,24 @@
 module.exports = {
   title: 'Introduction to webdesign',
-  tagline: 'The tagline of my site',
+  tagline: 'A website about designing and programming websites',
   url: 'https://harkle.github.io/ecal-web/',
   baseUrl: '/ecal-web/',
   favicon: 'img/favicon.ico',
   organizationName: 'harkle', // Usually your GitHub org/user name.
   projectName: 'ecal-web', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ECAL Web',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ECAL Web',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/design_basics_1', label: 'Designing', position: 'left'},
+        {to: 'docs/programming_html_1', label: 'Programming', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/harkle/ecal-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -25,52 +26,12 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: 'Copyright © 2020 ECAL, Lionel Tardy',
+    },
+    algolia: {
+      apiKey: 'api-key',
+      indexName: 'index-name',
+      algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
   presets: [
@@ -79,8 +40,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: '',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

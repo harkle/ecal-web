@@ -6,8 +6,13 @@
  */
 
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+  designing: {
+    Basics: ['design_basics_1'],
+    XD: ['design_xd_1']
+  },
+  programming: {
+    HTML: ['programming_html_1'],
+    CSS: ['programming_css_1'],
+    Bootstrap: ['programming_bootstrap_1'],
   },
 };
