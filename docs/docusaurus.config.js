@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Introduction to webdesign',
-  tagline: 'A website about designing and programming websites',
+  title: 'Introduction au webdesign',
+  tagline: 'Comment imaginer, concevoir et programmer un site web.',
   url: 'https://harkle.github.io/ecal-web/',
   baseUrl: '/ecal-web/',
   favicon: 'img/favicon.ico',
@@ -8,6 +8,10 @@ module.exports = {
   projectName: 'ecal-web', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
+    disableDarkMode: true,
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+    },
     navbar: {
       title: 'ECAL Web',
       logo: {
@@ -15,8 +19,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/design_basics_1', label: 'Designing', position: 'left'},
-        {to: 'docs/programming_html_1', label: 'Programming', position: 'left'},
+        {to: 'docs/introduction_history', label: 'Introduction', position: 'left'},
+        {to: 'docs/design_basics_1', label: 'Design', position: 'left'},
+        {to: 'docs/programming_html_1', label: 'Programmation', position: 'left'},
         {
           href: 'https://github.com/harkle/ecal-web',
           label: 'GitHub',

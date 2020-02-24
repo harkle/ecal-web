@@ -6,13 +6,19 @@
  */
 
 module.exports = {
+  introduction: {
+    Introduction: ['introduction_history', 'introduction_website', 'introduction_process'],
+  },
   designing: {
-    Basics: ['design_basics_1'],
-    XD: ['design_xd_1']
+    'Les bases': ['design_basics_1'],
+    'Adobe XD': ['design_xd_1']
   },
   programming: {
+    Introduction: ['programming_tools', 'programming_website_structure'],
     HTML: ['programming_html_1'],
     CSS: ['programming_css_1'],
     Bootstrap: ['programming_bootstrap_1'],
+    Javascript: ['programming_javascript'],
+    jQuery: ['programming_jquery'],
   },
 };
