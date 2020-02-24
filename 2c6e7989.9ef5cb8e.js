@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{136:function(a){a.exports=JSON.parse('{"allTagsPath":"/ecal-web/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/ecal-web/blog/tags/facebook"}')}}]);
