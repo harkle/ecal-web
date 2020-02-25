@@ -19,9 +19,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/introduction_history', label: 'Introduction', position: 'left'},
-        {to: 'docs/design_basics_1', label: 'Design', position: 'left'},
-        {to: 'docs/programming_html_1', label: 'Programmation', position: 'left'},
+        /*{to: 'docs/introduction_history', label: 'Introduction', position: 'left'},
+        {to: 'docs/design_basics_1', label: 'Design', position: 'left'},*/
+        {to: 'docs/programming_tools', label: 'Programmation', position: 'left'},
         {
           href: 'https://github.com/harkle/ecal-web',
           label: 'GitHub',
