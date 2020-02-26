@@ -39,6 +39,11 @@ header .button:hover {
   color: black !important;
 }
 
+.w-75 {
+  display: block;
+  width: 75%;
+  margin: 0px auto;
+}
 
 @media screen and (max-width: 996px) {
   :root {
