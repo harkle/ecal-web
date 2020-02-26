@@ -27,6 +27,19 @@ iframe {
   width: 100%;
 }
 
+.navbar__search {
+  display: none;
+}
+
+header .button {
+  color: white !important;
+}
+
+header .button:hover {
+  color: black !important;
+}
+
+
 @media screen and (max-width: 996px) {
   :root {
     --ifm-font-size-base: 15px;

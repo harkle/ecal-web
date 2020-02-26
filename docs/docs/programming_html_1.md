@@ -29,6 +29,9 @@ Voici quelques exemples de balises
 ### Les attributs
 
 ### Les éléments HTML
+https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML
+Impbriquer des éléments
+Indentation
 ### Les balises « auto-fermantes » (ou balises vides)
 
 => passer dans la rubrique suivante

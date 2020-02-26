@@ -1,5 +1,5 @@
 ---
-id: programming_tools
+id: tools
 title: Outils de base
 sidebar_label: Outils
 ---
@@ -17,7 +17,7 @@ Voici différents logiciels téléchargeables gratuitement:
 - <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
 - <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>
 
-<img alt="" src={useBaseUrl('img/atom.png')} />
+<img alt="" src={useBaseUrl('img/programming/introduction/atom.png')} />
 
 ## Navigateur web
 
@@ -27,14 +27,13 @@ Développer un site web nécessite un navigateur web moderne afin de visualiser 
 
 L’*inspecteur d’éléments* est un outil de développement présent dans tous les navigateurs web qui vous permet d’explorer et modifier votre code en temps réel afin de corriger les bugs.  
 
-<img alt="" src={useBaseUrl('img/landingPage_PageInspector.png')} />
-
 Il est généralement accessible via le menu contextuel ou un raccourci clavier.
-<img alt="" src={useBaseUrl('img/webinspector-shortcut.png')} />
+
+<img alt="" src={useBaseUrl('img/programming/introduction/inspector.gif')} />
 
 Si vous utilisez **Safari**, vous devez activer l’outil en vous rendant dans le menu *Safari* → *Préférences* puis dans l’onglet *Avancé*. Ensuite, vous devez cocher la case *Afficher les outils de développement*.
 
-<img alt="" src={useBaseUrl('img/webinspector-safari.png')} />
+<img alt="" src={useBaseUrl('img/programming/introduction/inspector-safari.png')} />
 
 ## Éditeur de média
 
