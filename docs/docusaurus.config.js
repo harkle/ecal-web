@@ -22,6 +22,7 @@ module.exports = {
         /*{to: 'docs/introduction_history', label: 'Introduction', position: 'left'},
         {to: 'docs/design_basics_1', label: 'Design', position: 'left'},*/
         {to: 'docs/programming/basics/tools', label: 'Programmation', position: 'left'},
+        {to: 'docs/references', label: 'Références', position: 'left'},
         {
           href: 'https://github.com/harkle/ecal-web',
           label: 'GitHub',

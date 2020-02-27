@@ -1,8 +1,8 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+* Any CSS included here will be global. The classic template
+* bundles Infima by default. Infima is a CSS framework designed to
+* work well for content-centric websites.
+*/
 
 /* You can override the default Infima variables here. */
 :root {
@@ -43,6 +43,22 @@ header .button:hover {
   display: block;
   width: 75%;
   margin: 0px auto;
+}
+
+kbd {
+  display: inline-block;
+  margin: 0 .1em;
+  padding: .1em .6em;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #242729;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #e1e3e5;
+  border: 1px solid #adb3b8;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(12,13,14,0.2),0 0 0 2px #fff inset;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 996px) {

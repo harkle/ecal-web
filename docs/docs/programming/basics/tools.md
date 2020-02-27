@@ -17,7 +17,7 @@ Voici différents logiciels téléchargeables gratuitement:
 - <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
 - <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>
 
-<img alt="" src={useBaseUrl('img/programming/introduction/atom.png')} />
+<img alt="" src={useBaseUrl('img/programming/basics/atom.png')} />
 
 ## Navigateur web
 
@@ -29,11 +29,11 @@ L’*inspecteur d’éléments* est un outil de développement présent dans tou
 
 Il est généralement accessible via le menu contextuel ou un raccourci clavier.
 
-<img alt="" src={useBaseUrl('img/programming/introduction/inspector.gif')} />
+<img alt="" src={useBaseUrl('img/programming/basics/inspector.gif')} />
 
 Si vous utilisez **Safari**, vous devez activer l’outil en vous rendant dans le menu *Safari* → *Préférences* puis dans l’onglet *Avancé*. Ensuite, vous devez cocher la case *Afficher les outils de développement*.
 
-<img alt="" src={useBaseUrl('img/programming/introduction/inspector-safari.png')} />
+<img alt="" src={useBaseUrl('img/programming/basics/inspector-safari.png')} />
 
 ## Éditeur de média
 

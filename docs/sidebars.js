@@ -14,7 +14,7 @@ module.exports = {
     'Adobe XD': ['design_xd_1']
   },*/
   programming: {
-    "Les bases": ['programming/basics/tools', 'programming/basics/organisation', 'programming/basics/how-to-work'],
+    "Les bases": ['programming/basics/tools', 'programming/basics/organisation', 'programming/basics/how-to-work', 'programming/basics/excercice'],
     /*HTML: ['programming_html_1'],
     CSS: ['programming_css_1'],
     Bootstrap: ['programming_bootstrap_1'],

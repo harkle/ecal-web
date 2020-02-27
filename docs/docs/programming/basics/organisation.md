@@ -18,7 +18,7 @@ Un site web, est un ensemble de pages et de ressources liées et accessibles par
 
 Il existe une large variété de sites: site d’information · site vitrine · blog · forum · e-commerce · page personnelle · wiki · réseau social · moteur de recherche · site d’actualités · application web · etc.
 
-<img alt="" src={useBaseUrl('img/programming/introduction/website.png')} />
+<img alt="" src={useBaseUrl('img/programming/basics/website.png')} />
 
 *Différentes pages du site https://ecal.ch*
 
@@ -26,7 +26,7 @@ Il existe une large variété de sites: site d’information · site vitrine · 
 
 Une page web est un document au format HTML qui peut être affiché dans un navigateur. Le visiteur peut la consulter en utilisant le défilement horizontal ou vertical. Chaque page est accessible par une adresse web (URL) unique.
 
-<img alt="" src={useBaseUrl('img/programming/introduction/webpage.png')} />
+<img alt="" src={useBaseUrl('img/programming/basics/webpage.png')} />
 
 *La page de présentation de l’école sur le site https://ecal.ch*
 
@@ -34,7 +34,7 @@ Une page web est un document au format HTML qui peut être affiché dans un navi
 
 Ensemble matériel et logiciel qui stocke un site web et le rend accessible publiquement via Internet. On y publie généralement les fichiers au moyen d’un [client FTP](tools#client-ftp).
 
-<img alt="" src={useBaseUrl('img/programming/introduction/server.svg')} class="w-75" />
+<img alt="" src={useBaseUrl('img/programming/basics/server.svg')} class="w-75" />
 
 ### Site local
 
