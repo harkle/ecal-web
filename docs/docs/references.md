@@ -7,6 +7,18 @@ sidebar_label: Références
 Le présent document a été conçu par Lionel Tardy pour le cours *Interaction design* du module *Compétences transversales I* enseigné aux étudiant·e·s de première année bachelor à l'École Cantonale d'Art de Lausanne. Il compile des information de différentes sources et se base, entre autre, sur le travail de Romain Cazier, Marc Dubois et Amaury Hamon réalisé pour ce même cours.
 
 ## Liens utiles
+**W3 Schools**, tutoriels HTML, CSS, JavaScript<br/>
+https://www.w3schools.com/
+
+**Code Academy**, tutoriels HTML, CSS, JavaScript<br/>
+https://www.codecademy.com/
+
+**Can I use**, qu'est-il possible de faire sur quel navigateur?<br/>
+https://caniuse.com/
+
+**Material Design**, charte graphique Google Material Design<br/>
+https://material.io/
+
 
 ## Bibliographie
 
