@@ -72,3 +72,12 @@ kbd {
     --ifm-font-size-base: 17px;
   }
 }
+
+.browserWindowBody_src-components-BrowserWindow- {
+  font-family: serif;
+}
+
+.browserWindowBody_src-components-BrowserWindow- a {
+  color: blue;
+  text-decoration: underline;
+}

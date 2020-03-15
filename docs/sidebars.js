@@ -15,6 +15,8 @@ module.exports = {
   },*/
   programming: {
     "Les bases": ['programming/basics/tools', 'programming/basics/organisation', 'programming/basics/how-to-work', 'programming/basics/exercice'],
+    "HTML": ['programming/html/introduction', 'programming/html/page', 'programming/html/tags', 'programming/html/structure', 'programming/html/exercice'],
+    "Divers": ['programming/miscellaneous/formating', 'programming/miscellaneous/images']
     /*HTML: ['programming_html_1'],
     CSS: ['programming_css_1'],
     Bootstrap: ['programming_bootstrap_1'],
