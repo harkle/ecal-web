@@ -73,11 +73,11 @@ kbd {
   }
 }
 
-.browserWindowBody_src-components-BrowserWindow- {
+*[class^="browserWindowBody_"] {
   font-family: serif;
 }
 
-.browserWindowBody_src-components-BrowserWindow- a {
+*[class^="browserWindowBody_"] a {
   color: blue;
   text-decoration: underline;
 }
