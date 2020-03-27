@@ -10,10 +10,10 @@ import React from 'react';
 import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-function BrowserWindow({children, minHeight, url, src}) {
+function BrowserWindow({children, minHeight, backgroundColor, url, src}) {
   if (src) children =  (<iframe src={useBaseUrl(src)} frameBorder="0"  style={{minHeight}}></iframe>);
   return (
-    <div className={styles.browserWindow} style={{minHeight}}>
+    <div className={styles.browserWindow}>
       <div className={styles.browserWindowHeader}>
         <div className={styles.buttons}>
           <span className={styles.dot} style={{background: '#f25f58'}} />
@@ -32,7 +32,7 @@ function BrowserWindow({children, minHeight, url, src}) {
         </div>
       </div>
 
-      <div className={styles.browserWindowBody}>{children}</div>
+      <div className={styles.browserWindowBody} style={{backgroundColor}}>{children}</div>
     </div>
   );
 }
