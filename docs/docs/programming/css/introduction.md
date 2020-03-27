@@ -46,19 +46,19 @@ Une règle CSS est toujours composée des éléments suivants:
 <br/>
 
 - Le sélecteur définit l'élément sur lequel agit la règle;
-– Les accolades délimitent la règle qui s'appliquera à ce séleteur
-- Chaque déclaration modifie une paramètre en particulier. Une règle CSS peut contenir plusieurs déclarations. Elles sont séparées par un ```;``` et un retour à la ligne;
+– Les accolades délimitent la règle qui s'appliquera à ce sélecteur
+- Chaque déclaration modifie un paramètre en particulier. Une règle CSS peut contenir plusieurs déclarations. Elles sont séparées par un ```;``` et un retour à la ligne;
 - Chaque règle est composée d'une paire *clé valeur* séparé par un ```:```.
 
 Dans l'exemple ci-dessus, nous avons une règle qui modifie **tous** les paragraphes du site pour qu'ils s'affichent avec un texte rouge en Arial.
 
 ## Sélecteurs
 
-Les sélecteurs permettent de définir sur quelle éléments votre règle agira. Il existe trois principaux sélecteurs.
+Les sélecteurs permettent de définir sur quels éléments votre règle agira. Il existe trois principaux sélecteurs.
 
-### Elément
+### Élément
 
-Vous pouvez utiliser n'importe quelle balise HTML comme sélecteur. Votre règle s'appliquera alors à **toutes** les occurences de cette balise dans votre site (donc sur toutes les pages.)
+Vous pouvez utiliser n'importe quelle balise HTML comme sélecteur. Votre règle s'appliquera alors à **toutes** les occurrences de cette balise dans votre site (donc sur toutes les pages.).
 
 Le code ci-dessous modifie la couleur des liens dans toutes les pages du site.
 
@@ -73,15 +73,15 @@ a {
 
 ### Class
 
-Les classes permettent de définir des règles CSS que vous pouvez appliquer librement à autant d'élément HTML que vous le souhaitez.
+Les classes permettent de définir des règles CSS que vous pouvez appliquer librement à autant d'éléments HTML que vous le souhaitez.
 
 - Le sélecteur qui décrit une classe commence toujours par un ```.```.
 - Inscrivez ensuite un nom composé uniquement de lettres, de chiffres (pas de chiffres directement après le point) ainsi que des caractères ```-``` et ```_```.
 - Dans vos pages HTML, chaque élément qui subit la classe doit comporter un attribut *class* avec le nom de votre classe dans sa valeur.
-- Un élément HTML peut subir plusieurs class. On écrit alors **un seul** attribut *class** et on met les noms des différentes classes dans sa valeurs en les séparant par un espace.
+- Un élément HTML peut subir plusieurs classes. On écrit alors **un seul** attribut *class** et on met les noms des différentes classes dans sa valeur en les séparant par un espace.
 
 :::important
-Donnez des noms logiques à vos classes! Optez pour des termes qui décrivent leur fonctions (p.ex color-red pour une classe qui sert à passer la couleur du texte en rouge). Évitez les noms génériques ou abstraits.
+Donnez des noms logiques à vos classes! Optez pour des termes qui décrivent leurs fonctions (p.ex color-red pour une classe qui sert à passer la couleur du texte en rouge). Évitez les noms génériques ou abstraits.
 :::
 
 <Tabs
@@ -128,7 +128,7 @@ L'identifiant fonctionne sur le même principe que la classe. Il a la particular
 - Le sélecteur qui décrit une classe commence toujours par un ```#```.
 - Inscrivez ensuite un nom composé uniquement de lettres, de chiffres (pas de chiffres directement après le point) ainsi que des caractères ```-``` et ```_```.
 - Dans vos pages HTML, chaque élément qui subit l'identifiant doit comporter un attribut *id* avec le nom de votre identifiant dans sa valeur.
-- Un élément HTML ne peut subire qu'une seul identifiant.
+- Un élément HTML ne peut subir qu'un seul identifiant.
 – Votre identifiant ne doit être utilisé qu'une seule fois par page web.
 
 <Tabs
@@ -166,12 +166,12 @@ L'identifiant fonctionne sur le même principe que la classe. Il a la particular
 
 :::important
 **Classe ou identifiant?**
-Privilégiez l'usage des classes! Les identifiants sont surtout utiles pour modifier des compostants unique ou travailler avec du JavaScript.
+Privilégiez l'usage des classes! Les identifiants sont surtout utiles pour modifier des composants uniques ou travailler avec du JavaScript.
 :::
 
 ## Sélecteurs multiples
 
-Vous avez la possibilité de combiner plusieurs sélecteurs afin de cibler des éléments précis. Pour ce faire, il suffit d'écrire les différents éléments de votre sélecteurs en les séparant par un espace.
+Vous avez la possibilité de combiner plusieurs sélecteurs afin de cibler des éléments précis. Pour ce faire, il suffit d'écrire les différents éléments de votre sélecteur en les séparant par un espace.
 
 La lecture se faite de gauche à droite, de parent à enfant.
 
@@ -268,7 +268,7 @@ Pour faire cet exercice, vous pouvez repartir sur la base de [l'exercice précé
 
 #### Étape 2 – Changer la police du site
 
-1. Dans votre feuille de style, créer une règle qui modifie la police de tout le site. Définisez l'Arial comme font par défaut.
+1. Dans votre feuille de style, créer une règle qui modifie la police de tout le site. Définissez l'Arial comme font par défaut.
 2. Dans la règle que vous venez de créer, modifiez la taille de la police avec la clé ```font-size``` et la valeur 16px;
 
 #### Étape 3 – Modifiez la couleur des liens du site
