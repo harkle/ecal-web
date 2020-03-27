@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+a {
+  color: magenta;
+}
+
+a:hover {
+  color: cyan;
+}
+
+.color-red {
+  color: red;
+}
