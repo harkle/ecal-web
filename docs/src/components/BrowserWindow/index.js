@@ -11,7 +11,7 @@ import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function BrowserWindow({children, minHeight, url, src}) {
-  if (src) children =  (<iframe src={useBaseUrl(src)} frameBorder="0"></iframe>);
+  if (src) children =  (<iframe src={useBaseUrl(src)} frameBorder="0"  style={{minHeight}}></iframe>);
   return (
     <div className={styles.browserWindow} style={{minHeight}}>
       <div className={styles.browserWindowHeader}>
