@@ -18,7 +18,7 @@ Pour ajouter une feuille de style à votre site, il suffit de créer un fichier 
 Pour appliquer votre feuille de style à une page web, vous devez lier la page en question à votre feuille de style. Pour ce faire, il faut ajouter la ligne ci-dessous à l'intérieur de la balise ```<head>```.
 
 ```html
-<link href="styles.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 ```
 
 Votre balise ```head``` ressemblera donc à ceci:
