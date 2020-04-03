@@ -39,9 +39,9 @@ Par défaut, seul un nombre limité de polices est disponible sur le web. Il s'a
 
 Il est possible d'utiliser d'autres polices sur le web. Cependant, vous ne pouvez pas simplement les appeler par leurs noms. Vous devez ajouter les fichiers de police dans les ressources de votre site afin que les visiteurs puissent les voir.
 
-La majeure partie des fonderies proposent des licences pour le web. Il existe aussi des convertisseurs en ligne, mais leur usage sur une typographie payant est illégal. Vous pouvez aussi utiliser des services tels que <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>._
+La majeure partie des fonderies proposent des licences pour le web. Il existe aussi des convertisseurs en ligne, mais leur usage sur une typographie payant est illégal. Vous pouvez aussi utiliser des services tels que <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.
 
-:::important
+:::caution
 Si vous écrivez directement le nom de la police dans votre CSS et qu'elle est installée sur votre ordinateur, cela fonctionnera sur votre machine, mais pas chez les autres visiteurs! Vous devez impérativement inclure la police dans le site et utiliser des formats de police web (p.ex. woff).
 :::
 
@@ -281,7 +281,6 @@ Les propriétés suivantes permettent de modifer divers paramètres du texte:
 - text-decoration: créer un effet de soulignement, de surlignement ou de barré;
 - text-transform: changer la case du texte.
 - text-shadow: créer un effet d'ombrage.
-
 
 <Tabs
   defaultValue="css"
