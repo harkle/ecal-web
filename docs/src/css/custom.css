@@ -75,6 +75,7 @@ kbd {
 
 *[class^="browserWindowBody_"] {
   font-family: serif;
+  overflow: scroll;
 }
 
 *[class^="browserWindowBody_"] a {
