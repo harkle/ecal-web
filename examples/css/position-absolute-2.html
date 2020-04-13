@@ -1,0 +1,61 @@
+<style>
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .warning {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .wrong {
+    color: red;
+  }
+
+  .right {
+    color: green;
+  }
+
+  .bloc {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .position-absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-color: magenta;
+  }
+</style>
+<div class="row">
+  <div class="col-6">
+    <h2>Parent non positionnée <span class="warning wrong">Faux</span></h2>
+    <p>L'élément se place par rapport à la page.</p>
+    <div class="bloc">static</div>
+    <div class="bloc">
+      static
+      <div class="bloc position-absolute">absolute</div>
+    </div>
+  </div>
+  <div class="col-6">
+    <h2>Parent positionnée <span class="warning right">Juste</span></h2>
+    <p>L'élément se place par rapport à son parent.</p>
+    <div class="bloc">static</div>
+    <div class="bloc position-relative">
+      relative
+      <div class="bloc position-absolute">absolute</div>
+    </div>
+  </div>
+</div>
