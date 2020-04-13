@@ -9,13 +9,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Outre la balise ```<img>```, vous avez la possibilité d'insérer dans le fond d'un bloc. Cette technique diminue la qualité du référencement par rapport aux images mais offre plus de flexibilité quant à la mise en forme et au redimensionnement des images.
+Outre la balise ```<img>```, vous avez la possibilité d'insérer dans le fond d'un bloc. Cette technique diminue la qualité du référencement par rapport aux images, mais offre plus de flexibilité quant à la mise en forme et au redimensionnement des images.
 
 ## Syntaxe de base
 
 N'importe quel élément affiché en ```display: block;``` peut contenir une image de fond. Celle-ci s'affichera toujours derrière le contenu du bloc.
 
-Voici la syntaxe de base pour afficher une image en fond. La mention ```height: 100px``` et la bordure n'est pas nécessaire, elle figurent dans l'exemple pour mieux visualiser le résultat.
+Voici la syntaxe de base pour afficher une image en fond. La mention ```height: 100px``` et la bordure ne sont pas nécessaires, elles figurent dans l'exemple pour mieux visualiser le résultat.
 
 ```css
 .funny-background {
@@ -76,14 +76,14 @@ La propriété ```background-size``` permet de modifier la taille de l'image via
 - des valeurs en pourcent
 - les mots clés ```cover``` ou ```contain```
 
-On n'utilise rarement des valeurs fixe en pixel ou en pourcent car cela n'offre que peu de fléxibilité dans le redimensionnement, surtout quand on parle de responsive design.
+On n'utilise rarement des valeurs fixes en pixel ou en pour cent, car cela n'offre que peu de flexibilité dans le redimensionnement, surtout quand on parle de responsive design.
 
 ### Cover
 
-Le mode ```background-size: cover;``` définit que l'image couvre toujours l'ensemble du bloc, peu importe la différence de taille.
+Le mode ```background-size: cover;``` définis que l'image couvre toujours l'ensemble du bloc, peu importe la différence de taille.
 
 :::caution
-Le redimensionnement est géré automatiquement par le navigateur web. Si la taille du bloc est flexible, vous ne maîtrisez plus le cadrage de votre image. Il faut dont privilégier des sujet centrés avec de l'esapce autours.
+Le redimensionnement est géré automatiquement par le navigateur web. Si la taille du bloc est flexible, vous ne maîtrisez plus le cadrage de votre image. Il faut dont privilégier des sujets centrés avec de l'espace autour.
 :::
 
 ```css
@@ -101,7 +101,7 @@ Le redimensionnement est géré automatiquement par le navigateur web. Si la tai
 
 ### Contain
 
-Le mode ```background-size: contain;``` définit que l'image est toujours affichée en entiers dans le bloc, peu importe la différence de taille. Un espace vide entoure l'image, selon le format.
+Le mode ```background-size: contain;``` définis que l'image est toujours affichée en entier dans le bloc, peu importe la différence de taille. Un espace vide entoure l'image, selon le format.
 
 ```css
 .funny-background {
