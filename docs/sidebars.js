@@ -16,8 +16,8 @@ module.exports = {
   programming: {
     "Les bases": ['programming/basics/tools', 'programming/basics/organisation', 'programming/basics/how-to-work', 'programming/basics/exercice'],
     "HTML": ['programming/html/introduction', 'programming/html/page', 'programming/html/tags', 'programming/html/structure', 'programming/html/exercice'],
-    "CSS": ['programming/css/introduction', 'programming/css/units', 'programming/css/colors', 'programming/css/text-font', 'programming/css/flow', 'programming/css/box-model', 'programming/css/background-images', 'programming/css/positioning', 'programming/css/columns'],
-    "Divers": ['programming/miscellaneous/formating', 'programming/miscellaneous/images']
+    "CSS": ['programming/css/introduction', 'programming/css/units', 'programming/css/colors', 'programming/css/text-font', 'programming/css/flow', 'programming/css/box-model', 'programming/css/background-images', 'programming/css/positioning', 'programming/css/columns', 'programming/css/transformations', 'programming/css/transition-animation'],
+    "Divers": ['programming/miscellaneous/formating', 'programming/miscellaneous/images', 'programming/miscellaneous/publish']
     /*HTML: ['programming_html_1'],
     CSS: ['programming_css_1'],
     Bootstrap: ['programming_bootstrap_1'],
