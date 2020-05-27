@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Introduction au webdesign</ShortName>
+  <Description>Search Introduction au webdesign</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://harkle.github.io/ecal-web/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://harkle.github.io/ecal-web//search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://harkle.github.io/ecal-web//opensearch.xml" />
+  <moz:SearchForm>https://harkle.github.io/ecal-web/</moz:SearchForm>
+</OpenSearchDescription>
