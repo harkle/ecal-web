@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'harkle', // Usually your GitHub org/user name.
   projectName: 'ecal-web', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
+  onBrokenLinks: 'ignore',
   themeConfig: {
     colorMode: {
       disableSwitch: true
