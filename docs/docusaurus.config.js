@@ -8,7 +8,9 @@ module.exports = {
   projectName: 'ecal-web', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
-    disableDarkMode: true,
+    colorMode: {
+      disableSwitch: true
+    },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
     },
@@ -18,7 +20,7 @@ module.exports = {
         alt: 'ECAL Web',
         src: 'img/ecal-logo.svg',
       },
-      links: [
+      items: [
         /*{to: 'docs/introduction_history', label: 'Introduction', position: 'left'},
         {to: 'docs/design_basics_1', label: 'Design', position: 'left'},*/
         {to: 'docs/programming/basics/tools', label: 'Programmation', position: 'left'},
@@ -46,7 +48,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: '',
+          editUrl: 'https://github.com/harkle/ecal-web',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -75,6 +75,9 @@ function Home() {
               C'est parti
             </Link>
           </div>
+          <div>
+            <small>2020.13.09.1</small>
+          </div>
         </div>
       </header>
       <main>
