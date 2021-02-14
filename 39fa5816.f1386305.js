@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{89:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/ecal-web/blog/2019/05/30/welcome"},{"title":"Hello","permalink":"/ecal-web/blog/2019/05/29/hello-world"},{"title":"Hola","permalink":"/ecal-web/blog/2019/05/28/hola"}]}')}}]);
